@@ -4,37 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pruebas de FELXBOX</title>
+    <title>Pruebas de FLEXBOX</title>
     <style>
         .flex-container {
             display: flex;
-            flex-direction: row;
+            /* flex-flow: row wrap; */
+            /* Esta propiedad flex-flow combina direction y wrap */
+            /* flex-direction: row; */
             /* flex-direction puede tener "row" "row-reverse" "column" "column-reverse" */
-            flex-wrap: wrap-reverse; 
+            /* flex-wrap: wrap;  */
             /* flex-wrap puede tener "nowrap" (por defecto), "wrap","wrap-reverse" */
-            background-color: red;
-            /* align-items: center; */
+            background-color: rgb(255, 117, 221);
+            align-items: stretch;
+
+            /* justify-content: space-evenly; */
+            /* height: 600px; */
+            /* align-items: center;
+            align-content: center; */
         }
         .flex-container > div {
-            background-color: blue;
+            background-color: rgb(207, 87, 1);
             width: 100px;
             /*  ejemplo para la propiedad flex-direction: column; */
             margin: 10px;
             text-align: center;
             line-height: 75px;
             font-size: 30px;
+            color: white;
         }
     </style>
 </head>
 <body>
     <div class="flex-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
+        <div style="order: 3">1</div>
+        <div style="order: 4">2</div>
+        <div style="order: 1">3</div>
+        <div style="order: 2">4</div>
+        <!-- <div>5</div>
         <div>6</div>
         <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div> -->
+    </div>
+    <div class="flex-container">
+        <div style="flex-grow: 1">1GROW</div>
+        <div style="flex-grow: 6">2GROW</div>
+        <div style="flex-grow: 1">3GROW</div>
+    </div>
+    <div class="flex-container">
+        <div>SHRINK</div>
+        <div style="flex-shrink: 2">1Lorem ipsum</div>
+        <div style="flex-shrink: 1">2Lorem ipsum</div>
+        <div style="flex-shrink: 0">3Lorem ipsum</div>
+        <div>4Lorem ipsum</div>
+        <div>5Lorem ipsum</div>
     </div>
 </body>
 </html>
