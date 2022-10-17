@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>JavaScript while</h2>
+    <p id="demo"></p>
+    <script>
+        var text = "";
+        var i = 0;
+        // Del 0 al 9
+        while (i < 10) {
+            text += "<br>El número es " + i;
+            i++;
+        }
+        // Del 1 al 10
+        i=1;
+        while (i < 11) {
+            text += "<br>El número es " + i;
+            i++;
+        }
+        //Del 10 al 1
+        i=10;
+        while (i > 0) {
+            text += "<br>El número es " + i;
+            i--;
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>
