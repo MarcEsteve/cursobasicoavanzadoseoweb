@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Muestra "Buenos dí­as" si la hora es inferior a las 18:00h</p>
+<p id="buenas">Saludo</p>
+<script>
+// var hour = new Date().getHours();
+var hour = 19; //Modificar manualmente para comprovar los condicionales
+var saludo="Opción por def";
+// if (hour < 12) {
+//     saludo = "Buenos dí­as";
+// } else if (hour>=12 && hour<18) {
+//     //Entre las 12h incluida y las 18h no incluidas
+//     saludo = "Buenos tardes"; 
+// } else {
+//     saludo = "Buenas noches";
+// }
+
+if (hour>=12 && hour<18) {
+    saludo = "Buenas!!!";
+} 
+else {
+    saludo = "Todas las demás opciones!!!";
+}
+document.getElementById("buenas").innerHTML = saludo;
+</script>
+</body>
+</html>
