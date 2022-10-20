@@ -6,5 +6,7 @@ document.getElementById("demo3").innerHTML = "Mi nueva bici es: " + bici[1];
 bici[1]="OTRA";
 document.getElementById("demo4").innerHTML = "Mi nueva bici es: " + bici[1];
 //Ejemplos de valores de array
-var array = [ 3, "hola", true, "bona nit"  ]
-var nombre = [1, "Marc", "Esteve", "Torrelles"]
+var array = [ 3, "hola", true, "bona nit"  ];
+var nombre = [1, "Marc", "Esteve", "Torrelles"];
+var z="3"; //Tipo texto, string
+var variable=3; //Tipo número, number
