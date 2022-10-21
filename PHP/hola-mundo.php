@@ -12,7 +12,11 @@
             echo "<br>";
             echo $y;
             echo "<br>";
-            echo $z;
+            echo $z . "<br>";
+            //Ejemplo de suma
+            $x = 5;
+            $y = 4;
+            echo $x + $y;
         ?>
     </body>
 </html>
