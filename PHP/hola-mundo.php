@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <!-- Código de PHP -->
+        <!-- Esta parte es código de PHP -->
         <?php
-            // Declarar y asignar variables PHP
+            // Declarar y asignar las variables en PHP
             $x = "Hola mundo";
             $y = 5;
             $z = 10.5;
-            //Mostrar en pantalla con "echo"
+            //Mostrar en pantalla con "echo" las variables
             echo $x;
             echo "<br>";
             echo $y;
