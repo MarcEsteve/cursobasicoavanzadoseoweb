@@ -41,7 +41,7 @@ echo $pepito,$bar," multiples parámetros ",4; //echo admite múltiples parámet
 echo '<br>';
 // Las cadenas pueden ser pasadas individualmente como varios argumentos o
 // concatenadas como un único argumento
-echo 'Esta '. 'cadena ', 'está '. 'hecha '. 'con múltiple parámetros.';
+echo 'Esta ', 'cadena ', 'está ', 'hecha ', 'con múltiple parámetros.';
 echo '<br>';
 echo 'Esta ' . 'cadena ' . 'está ' . 'hecha ' . 'con concatenación.' . "\n";
 
